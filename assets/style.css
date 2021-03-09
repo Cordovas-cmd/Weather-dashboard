@@ -1,0 +1,152 @@
+html{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+body {
+    background: url("images/valentin-muller-bWtd1ZyEy6w-unsplash.jpg") no-repeat fixed;
+    background-color: rgb(32, 91, 131);
+}
+
+p {
+    font-size: 24px;
+}
+
+#dateBox {
+    font-weight: bolder;
+}
+
+i {
+    font-size: 5rem;
+}
+
+.image {
+    padding-top: 0% !important;
+    text-align: center;
+}
+
+.columns.is-ancestor {
+    margin: 0 auto;
+}
+
+#cityInput {
+    border-radius: 0%;
+    font-family: 'Raleway', sans-serif;
+    font-size: larger;
+}
+
+#searchBtn {
+    border-radius: 0%;
+    font-size: larger;
+}
+
+.button.is-info {
+    border-radius: 0%;
+    width: 100%;
+    color: #17BEBB;
+    background-color: #FCFFF7;
+    font-family: 'Raleway', sans-serif;
+    font-size: larger;
+}
+
+.button.is-info:hover {
+    background-color: #ED6A5A;
+}
+.button.is-info:active {
+    background-color: #17BEBB;
+}
+.button.is-info:focus {
+    background-color: #17BEBB;
+}
+
+.tile.is-vertical {
+    padding: 0rem;
+}
+
+#searchTitle {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3rem;
+}
+
+.label {
+    font-family: 'Raleway', sans-serif;
+}
+
+#searchBoxBg {
+    background-color: #9BC1BC;
+    padding: 4%;
+    height: 100%;
+}
+
+#frequentlySearched {
+    font-family: 'Raleway', sans-serif;
+}
+
+#weatherDashboardTitle {
+    font-size: 5rem;
+    font-family: 'Cormorant Garamond', serif;
+    color: #FCFFF7;
+}
+
+#statBox{
+    background-color: #F4F1BB;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+}
+
+#randoImg {
+    width: auto;
+    height: 300px;
+}
+
+#weatherBox {
+    background-color: #ED6A5A;
+    color: #F4F1BB;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#cityForecast {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+h6 {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+.weatherTemp {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.weatherCondition {
+    font-family: 'Raleway', sans-serif;
+}
+
+.footer {
+    background: transparent;
+}
+
+#footerTxt {
+    font-size: 1.4rem;
+    font-family: 'Cormorant Garamond', serif;
+    color: #FCFFF7;
+}
+
+a {
+    font-size: 1.4rem;
+    font-family: 'Cormorant Garamond', serif;
+    color: #17BEBB;
+}
+
+#wikiUVLink {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8rem;
+}
+
+#bgCredit {
+    float: right;
+}
