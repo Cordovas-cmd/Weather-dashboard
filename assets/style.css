@@ -3,7 +3,7 @@ html{
 }
 
 body {
-    background: url("images/valentin-muller-bWtd1ZyEy6w-unsplash.jpg") no-repeat fixed;
+  
     background-color: rgb(32, 91, 131);
 }
 
@@ -100,7 +100,7 @@ i {
 
 #weatherBox {
     background-color: #ED6A5A;
-    color: #F4F1BB;
+    color: #f1efbd;
     font-family: 'Cormorant Garamond', serif;
 }
 
