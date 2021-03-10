@@ -14,7 +14,18 @@ $(document).ready(function () {
     var seattleEl = $("#seattle");
     var denverEl = $("#denver");
     var atlantaEl = $("#atlanta");
+//this will populate the date in the weather div.
+var momentDates = moment().format("MMMM Do YYYY");
+$("#currentDate").append(momentDates);
+$("#dateBox").append(momentDates);
 
+for (i = 1; i < 6; i++) {
+    var addDay = moment().add(i, 'days');
+    console.log(addDay.format("MMMM Do YYYY"));
+
+    $("#day" + i + "Date").append(addDay.format("MMMM Do YYYY"));
+
+}
     //prompt for user location
     var options = {
         enableHighAccuracy: true,
